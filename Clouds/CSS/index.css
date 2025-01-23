@@ -1,0 +1,74 @@
+/* Write CSS code here */
+body{
+    margin: 0px;
+ 
+}
+#container{
+   
+height: 100vh;
+position: relative;
+background-image:linear-gradient(30deg, #17aef4, #00598c) ;
+overflow: hidden;
+}
+
+.cloud{
+    z-index: 1;
+    width: 200px;
+    height: 80px;
+    background-image:linear-gradient(30deg, #b1e6ff, #ffffff) ;
+    position: absolute;
+    border-radius: 40px;
+   
+}
+#sun{
+ 
+    width:200px;
+    height:200px;
+   
+    position: absolute;
+    border-radius: 50%;
+    top:150px;
+    left: 250px;
+    background-image:linear-gradient(30deg, #fffb29, #c17634) ;
+   
+}
+.cloudBubble1{
+   
+    width: 100px;
+    height: 100px;
+    background-image:linear-gradient(30deg, #c6edff, #ffffff) ;
+     border-radius: 50px;
+     position: absolute;
+     top:-50px;
+     left:30px
+}
+.cloudBubble2{
+   
+    width: 60px;
+    height: 60px;
+    background-image:linear-gradient(30deg, #e0f5fd, #ffffff) ;
+     border-radius: 30px;
+     position: absolute;
+     top:-30px;
+     right:30px;
+}
+
+#grass{
+    width: 100%;
+    height: 100px;
+    background-image:linear-gradient(30deg, #137200, #1be700, #216209) ;
+  
+     position: absolute;
+  
+    bottom: 0px;
+}
+
+#raindrop{
+    z-index: 1;
+    height: 10px;
+    width: 3px;
+    border-radius: 2px;
+    
+    background-image:linear-gradient(30deg, #242628, #006aff ) ; 
+    position: absolute;
+}
