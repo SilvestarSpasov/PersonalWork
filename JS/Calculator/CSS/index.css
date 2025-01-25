@@ -1,0 +1,100 @@
+body{
+   
+    user-select: none;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+html, body {
+    margin: 0;
+    height: 100%;
+}
+@font-face {
+    font-family: digital;
+    src: url(../fonts/digital.ttf);
+  }
+
+
+
+
+
+#Calculator{
+  padding: 1vmin;
+    -webkit-box-shadow: 0 0 1vmin grey;
+    box-shadow: 0 0 1vmin grey;
+    height: 80%;
+    min-height:90%;
+    min-width: 300px;
+    border:1px solid black;
+    width: 25%;
+    background-color:grey;
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around ;
+    align-items: center;
+    border-radius: 1vmin;
+  
+ 
+}
+
+#Screen{
+    box-sizing: border-box;
+    padding: 0.5vmin;
+    -webkit-box-shadow: 0 0 1vmin #4dff20;
+    box-shadow: 0 0 1vmin #4dff20;
+    width: 100%;
+    height: 14%;
+    background-color: rgb(169, 248, 85);
+    margin: 2%;
+    margin-top:4%;
+    border-radius: 1vmin;
+    white-space: pre;
+    text-align: right;
+    font-family: digital;
+    font-size: 3.6vmin;
+    letter-spacing:2px;
+    
+}
+
+.DigitBtn:active,#Eql:active{
+background-color: orange !important;
+}
+
+.DigitBtn{
+    font-size: 4vmin;
+    -webkit-box-shadow: 0 0 0.5vmin #000000;
+    box-shadow: 0 0 0.5vmin #000000;
+    height: 14%;
+    width: 20%;
+    border:1px solid black;
+    border-radius:10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    
+    cursor: pointer;
+
+}
+
+#BackSpace{
+    background-image: url("../Images/Backspace.PNG");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-size:4vmin;
+    background-position:center;
+}
+
+#Clear{
+    color:red
+}
+
+
+
+#Eql{   
+    background-color: #2575ff !important; 
+
+}
+

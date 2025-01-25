@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+
+<html> 
+
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="CSS/index.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--  <meta http-equiv="refresh" content="2" > -->
+</head>
+
+<script src='DecimalJS/decimal.js'></script>
+
+<script type="module">
+ import Decimal from 'DecimalJS/decimal.js';
+  
+</script>
+
+
+<body>
+   <div id="Calculator">
+    <div id="Screen"></div>
+    <div class="DigitBtn" id="Clear" onclick="SubmitClear()">C</div>
+    <div class="DigitBtn" id="BackSpace" onclick="SubmitClearLastDig()"></div>
+    <div class="DigitBtn" id="" onclick="SubmitPow()">x&sup2</div>
+    <div class="DigitBtn" id="Root" onclick="SubmitSqrt()"><span style="white-space: nowrap;font-size: 2vmin;">
+      &radic;<span style="text-decoration:overline;font-size: 2vmin;">&nbsp;X&nbsp;</span>
+      </span></div>
+
+   
+
+
+    <div class="DigitBtn" id="7" onclick="SubmitDigit('7')">7</div>
+    <div class="DigitBtn" id="8" onclick="SubmitDigit('8')">8</div>
+    <div class="DigitBtn" id="9" onclick="SubmitDigit('9')">9</div>
+    <div class="DigitBtn" id="Division" onclick="SubmitOperation('/')">/</div>
+   
+
+
+
+
+
+    <div class="DigitBtn" id="4" onclick="SubmitDigit('4')">4</div>
+    <div class="DigitBtn" id="5" onclick="SubmitDigit('5')">5</div>
+    <div class="DigitBtn" id="6" onclick="SubmitDigit('6')">6</div>
+    <div class="DigitBtn" id="Multiplication" onclick="SubmitOperation('*')">*</div>
+   
+
+
+
+
+   
+    <div class="DigitBtn" id="1" onclick="SubmitDigit('1')">1</div>
+    <div class="DigitBtn" id="2" onclick="SubmitDigit('2')">2</div>
+    <div class="DigitBtn" id="3" onclick="SubmitDigit('3')">3</div>
+    <div class="DigitBtn" id="Subtraction" onclick="SubmitOperation('-')">-</div>
+  
+   
+    
+   
+    
+    <div class="DigitBtn" id="0" onclick="SubmitDigit('0')">0</div>
+    <div class="DigitBtn" id="Decimal" onclick="SubmitDecimal()">.</div>
+    <div class="DigitBtn" id="Eql" onclick="SubmitEql()">=</div>
+    <div class="DigitBtn" id="Addition" onclick="SubmitOperation('+')">+</div>
+ 
+
+   
+   
+   
+    
+   </div>
+        <script src="JS/index.js"></script>
+
+</body>
+
+
+</html>
+
+
