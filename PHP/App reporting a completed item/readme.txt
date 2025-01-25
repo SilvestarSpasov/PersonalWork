@@ -1,0 +1,1 @@
+Web app that read barcode with seral number of item with barcode reader after assemble. Then use this seral number to get information for this item form SQL database and fill the form. On each submit, make log with the information  in to excel file of specific item. If the file does not exist, it creates it.
